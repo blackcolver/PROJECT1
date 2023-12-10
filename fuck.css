@@ -185,4 +185,18 @@ label::before {
     font-family: FontAwesome;
     background: transparent;
     border: 3px solid #70F570;
-    border
+    border-radius: 4px;
+    color: transparent;
+    left: -30px;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: all 0.2s linear;
+}
+
+/* Styling for checkbox icon on hover */
+label:hover::before {
+    font-family: FontAwesome;
+    content: ' \f00c';
+    color: #fff;
+    cursor: pointer;
+}
